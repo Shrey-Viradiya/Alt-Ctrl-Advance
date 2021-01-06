@@ -26,3 +26,5 @@ This repository contains the Visual Studio Solution for the Chapters of Modern C
 - new operator
 - new[] operator
 - 2D arrays
+
+## Chapter 4: Class

@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{F712BB36-C3D1-4393-9400-8CA9F2BB5EAC}</ProjectGuid>
+    <ProjectGuid>{0B2757A2-FF37-4A80-BC95-CAF0A32F8FDE}</ProjectGuid>
     <RootNamespace>Chapter4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -123,11 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Car.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\..\temp\Car.cpp" />
+    <ClCompile Include="..\..\temp\House.cpp" />
+    <ClCompile Include="..\..\temp\Integer.cpp" />
+    <ClCompile Include="..\..\temp\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Car.h" />
+    <ClInclude Include="..\..\temp\Car.h" />
+    <ClInclude Include="..\..\temp\House.h" />
+    <ClInclude Include="..\..\temp\Integer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

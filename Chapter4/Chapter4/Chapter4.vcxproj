@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{0B2757A2-FF37-4A80-BC95-CAF0A32F8FDE}</ProjectGuid>
+    <ProjectGuid>{4934F7F1-6493-47AA-BDEB-8C6A293A3A89}</ProjectGuid>
     <RootNamespace>Chapter4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -123,15 +123,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\temp\Car.cpp" />
-    <ClCompile Include="..\..\temp\House.cpp" />
-    <ClCompile Include="..\..\temp\Integer.cpp" />
-    <ClCompile Include="..\..\temp\main.cpp" />
+    <ClInclude Include="BubbleGum.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="House.h" />
+    <ClInclude Include="Integer.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\temp\Car.h" />
-    <ClInclude Include="..\..\temp\House.h" />
-    <ClInclude Include="..\..\temp\Integer.h" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="House.cpp" />
+    <ClCompile Include="Integer.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

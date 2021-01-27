@@ -41,4 +41,3 @@ This repository contains the Visual Studio Solution for the Chapters of Modern C
 - Default and Deleted Functions (C++11)
 - L-values, R-values and R-values references (C++11)
 - Move Semantics (C++11)
-- Copy Elision

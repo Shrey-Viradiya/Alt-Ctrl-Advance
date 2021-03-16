@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 
 class Integer
 {
@@ -16,5 +17,8 @@ public:
 	Integer & operator ++();
 	Integer operator ++(int);
 	Integer operator =(const Integer& a);
+	friend std::istream & operator >> (std::istream & inp, Integer & a);
+
+	operator int();
 };
 

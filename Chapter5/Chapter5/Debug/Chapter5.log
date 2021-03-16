@@ -1,4 +1,6 @@
 ﻿  Integer.cpp
   main.cpp
+S:\Alt-Ctrl-Advance\Chapter5\Chapter5\main.cpp(87,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+S:\Alt-Ctrl-Advance\Chapter5\Chapter5\main.cpp(88,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   Generating Code...
   Chapter5.vcxproj -> S:\Alt-Ctrl-Advance\Chapter5\Debug\Chapter5.exe

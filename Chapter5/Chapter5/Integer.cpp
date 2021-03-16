@@ -3,16 +3,22 @@
 
 Integer::Integer()
 {
+	using namespace std;
+	cout << "Integer()" << endl;
 	m_pInt = new int{ 0 };
 }
 
 Integer::Integer(int value)
 {
+	using namespace std;
+	cout << "Integer(int value)" << endl;
 	m_pInt = new int{ value };
 }
 
 Integer::Integer(const Integer& obj)
 {
+	using namespace std;
+	cout << "Integer(const Integer& obj)" << endl;
 	m_pInt = new int{ obj.getValue() };
 }
 
@@ -36,6 +42,8 @@ void Integer::setValue(int value)
 
 Integer::~Integer()
 {
+	using namespace std;
+	cout << "~Integer()" << endl;
 	delete m_pInt;
 }
 
@@ -64,4 +72,9 @@ Integer Integer::operator=(const Integer& a)
 		m_pInt = new int(a.getValue());
 	}
 	return *this;
+}
+
+Integer::operator int()
+{
+	return *m_pInt;
 }

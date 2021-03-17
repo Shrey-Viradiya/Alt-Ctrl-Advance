@@ -41,3 +41,15 @@ This repository contains the Visual Studio Solution for the Chapters of Modern C
 - Default and Deleted Functions (C++11)
 - L-values, R-values and R-values references (C++11)
 - Move Semantics (C++11)
+
+## Chapter 5: Operator Overloading
+
+- Basics
+- Assignment Operator
+- Global Overloads
+- Friend Keyword
+- Smart Pointers Basics
+- Smart Pointers in C++11
+- Type conversations Basics
+- Type conversations Premitive to User Type
+- Type conversations User to Premitive Type

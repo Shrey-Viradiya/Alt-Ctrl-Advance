@@ -27,6 +27,9 @@
     <ClInclude Include="SharedPtr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="WeakPtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Integer.cpp">

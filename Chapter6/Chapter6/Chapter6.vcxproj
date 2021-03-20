@@ -143,6 +143,7 @@
     <ClInclude Include="resource.h" />
     <ClInclude Include="SharedPtr.h" />
     <ClInclude Include="UniquePtr.h" />
+    <ClInclude Include="WeakPtr.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Integer.cpp" />

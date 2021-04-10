@@ -1,0 +1,4 @@
+﻿  main.cpp
+S:\Alt-Ctrl-Advance\Chapter7\Chapter7\main.cpp(69,6): warning C4101: 'arrsdfsdf': unreferenced local variable
+S:\Alt-Ctrl-Advance\Chapter7\Chapter7\main.cpp(72,6): warning C4101: 'arrasda': unreferenced local variable
+  Chapter7.vcxproj -> S:\Alt-Ctrl-Advance\Chapter7\Debug\Chapter7.exe
